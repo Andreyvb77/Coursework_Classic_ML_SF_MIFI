@@ -10,8 +10,8 @@
 
 ##  Используемые методы
 
-- Регрессионные модели: CatBoostRegressor, XGBRegressor, RandomForestRegressor
-- Классификационные модели: CatBoostClassifier, XGBClassifier, RandomForestClassifier
+- Регрессионные модели: CatBoostRegressor, XGBRegressor, RandomForestRegressor, DecisionTreeRegressor
+- Классификационные модели: CatBoostClassifier, XGBClassifier, RandomForestClassifier, LightGBMClassifier
 - Оптимизация гиперпараметров: Optuna
 - Метрики оценки:
   - Для регрессии: MSE, MAE, R²
